@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Η Ιστοσελίδα Μου</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Καλώς Ήρθατε στην Ιστοσελίδα Μου</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Αρχική</a></li>
+                <li><a href="#about">Σχετικά</a></li>
+                <li><a href="#contact">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Αρχική Σελίδα</h2>
+            <p>Αυτή είναι μια απλή ιστοσελίδα με HTML, CSS και JavaScript.</p>
+        </section>
+
+        <section id="about">
+            <h2>Σχετικά με Εμάς</h2>
+            <p>Εδώ μπορείτε να μάθετε περισσότερα για εμάς.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Επικοινωνήστε Μαζί Μας</h2>
+            <form id="contactForm">
+                <label for="name">Όνομα:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Μήνυμα:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Αποστολή</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Η Ιστοσελίδα Μου. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
